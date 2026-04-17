@@ -18,9 +18,9 @@ export default function Hero() {
 
         {/* Main headline */}
         <h1 className="text-5xl md:text-7xl font-bold text-charcoal leading-tight mb-6 text-balance">
-          עצור.{' '}
-          <span className="text-sage-dark">הרגש.</span>{' '}
-          היה.
+          לעצור.{' '}
+          <span className="text-sage-dark">להרגיש.</span>{' '}
+          להיות.
         </h1>
 
         {/* Sub-headline */}
