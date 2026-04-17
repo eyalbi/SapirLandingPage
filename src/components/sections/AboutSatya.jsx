@@ -114,7 +114,7 @@ export default function AboutSatya() {
             ״
           </div>
           <p className="text-charcoal text-xl md:text-2xl font-light leading-relaxed px-8 pt-6">
-            החיים הם לא גנרלית חזרה, הם מה שקורה כאן ועכשיו
+          החיים הם לא חזרה גנרלית, הם מה שקורה כאן ועכשיו
           </p>
           <footer className="mt-4 text-warm-gray text-sm">
             <span className="font-medium">נטאלי בן דוד</span>
