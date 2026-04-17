@@ -1,10 +1,10 @@
-import { FaInstagram, FaWhatsapp, FaFacebook, FaSpotify } from 'react-icons/fa'
+import { FaInstagram, FaWhatsapp, FaFacebook, FaSpotify, FaYoutube } from 'react-icons/fa'
 
 const socialLinks = [
   {
     icon: FaInstagram,
     label: 'Instagram',
-    href: 'https://www.instagram.com/',
+    href: 'https://www.instagram.com/sapir_sapphire?igsh=MWptNzJrd3g4NjN3YQ%3D%3D&utm_source=qr',
     color: 'hover:text-pink-400',
   },
   {
@@ -16,14 +16,20 @@ const socialLinks = [
   {
     icon: FaFacebook,
     label: 'Facebook',
-    href: 'https://www.facebook.com/',
+    href: 'https://www.facebook.com/sapir.menahem',
     color: 'hover:text-blue-400',
   },
   {
     icon: FaSpotify,
     label: 'Spotify Podcast',
-    href: 'https://open.spotify.com/',
+    href: 'https://open.spotify.com/show/2RKpn7ZGJzRhHsldMgwZhW',
     color: 'hover:text-green-300',
+  },
+  {
+    icon: FaYoutube,
+    label: 'YouTube',
+    href: 'https://www.youtube.com/playlist?list=PLi9edZk5k1ZFjlwxklKM6kF1m8huc7GJF',
+    color: 'hover:text-red-400',
   },
 ]
 
