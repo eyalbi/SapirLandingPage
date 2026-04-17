@@ -1,3 +1,5 @@
+import { InlineWidget } from 'react-calendly'
+
 export default function Booking() {
   return (
     <section id="booking" className="py-24 bg-warm-card">
@@ -21,16 +23,18 @@ export default function Booking() {
           </p>
         </div>
 
-        {/* Calendly embed */}
+        {/* Calendly inline widget */}
         <div className="bg-ivory rounded-2xl border border-warm-border overflow-hidden shadow-sm">
-          <iframe
-            src="https://calendly.com/sapir682m"
-            title="קביעת פגישה עם ספיר מנחם"
-            width="100%"
-            height="650"
-            frameBorder="0"
-            className="w-full"
-            style={{ minWidth: '320px' }}
+          <InlineWidget
+            url="https://calendly.com/sapir682m/30min"
+            styles={{ minWidth: '320px', height: '700px' }}
+            pageSettings={{
+              backgroundColor: 'FAF8F5',
+              hideEventTypeDetails: false,
+              hideLandingPageDetails: false,
+              primaryColor: '8FAF8A',
+              textColor: '2D2926',
+            }}
           />
         </div>
 
