@@ -25,11 +25,11 @@ export default function Hero() {
 
         {/* Sub-headline */}
         <p className="text-lg md:text-xl text-warm-gray font-light leading-relaxed mb-4 max-w-xl mx-auto">
-          ליווי אישי בשיטת סאטיה — מפגש אמיתי עם עצמך, ברגע הנוכחי
+          ליווי אישי בשיטת סאטיה – מפגש אמיתי עם עצמך, ברגע הנוכחי
         </p>
 
         <p className="text-base text-warm-gray/80 font-light leading-relaxed mb-10 max-w-lg mx-auto">
-          כשיש בך תחושה שמבקשת עצירה, ורצון עולה בך להקשיב פנימה — אני מזמינה
+          כשיש בך תחושה שמבקשת עצירה, ורצון שעולה בך להקשיב פנימה – אני מזמינה
           אותך לבוא להתאמן.
         </p>
 

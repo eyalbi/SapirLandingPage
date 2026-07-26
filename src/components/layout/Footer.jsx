@@ -36,7 +36,7 @@ const socialLinks = [
 const navLinks = [
   { label: 'מי אני', href: '#about' },
   { label: 'שיטת סאטיה', href: '#satya' },
-  { label: 'קביעת פגישה', href: '#booking' },
+  { label: 'קביעת פגישת היכרות', href: '#booking' },
 ]
 
 export default function Footer() {
@@ -55,7 +55,7 @@ export default function Footer() {
               אימון אישי בשיטת סאטיה
             </p>
             <p className="text-white/40 text-xs leading-relaxed">
-              מלווה אנשים בתהליכים של חיבור פנימי, הקשבה והעמקה — גם כשאין
+              מלווה אנשים בתהליכים של חיבור פנימי, הקשבה והעמקה – גם כשאין
               תשובות מיידיות.
             </p>
           </div>
@@ -83,7 +83,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="tel:0549765471"
+                  href="https://wa.me/9720549765471"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="שליחת הודעת ווטסאפ ל-054-9765471"
                   className="text-white/50 text-sm hover:text-white transition-colors"
                 >
                   054-9765471
@@ -97,7 +100,6 @@ export default function Footer() {
                   Sapir682m@gmail.com
                 </a>
               </li>
-              <li className="text-white/40 text-sm">קליניקה ו/או זום</li>
             </ul>
           </div>
         </div>

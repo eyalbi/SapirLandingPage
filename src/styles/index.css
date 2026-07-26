@@ -10,8 +10,7 @@
   }
 
   body {
-    background-color: #FAF8F5;
-    color: #2D2926;
+    @apply bg-ivory text-charcoal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

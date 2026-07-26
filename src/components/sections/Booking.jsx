@@ -1,4 +1,8 @@
 import { InlineWidget } from 'react-calendly'
+import { activePalette } from '../../styles/palette'
+
+// Calendly expects bare hex values, without the leading '#'.
+const hex = (name) => activePalette[name].replace('#', '')
 
 export default function Booking() {
   return (
@@ -13,13 +17,11 @@ export default function Booking() {
             קביעת פגישת היכרות
           </h2>
           <p className="text-warm-gray text-base md:text-lg leading-relaxed max-w-xl mx-auto mb-2">
-            אם יש בך תחושה שמבקשת עצירה, ורצון עולה בך להקשיב פנימה ולפגוש את
-            עצמך — אני מזמינה אותך לבוא להתאמן.
+            אם יש בך תחושה שמבקשת עצירה, ורצון שעולה בך להקשיב פנימה ולפגוש את
+            עצמך – אני מזמינה אותך לבוא להתאמן.
           </p>
           <p className="text-warm-gray/70 text-sm">
-            שעות זמינות:{' '}
-            <span className="font-medium text-warm-gray">9:00 – 17:00</span>
-            {' '}· קליניקה ו/או זום
+            המועדים הפנויים מתעדכנים ביומן{' '}· זום
           </p>
         </div>
 
@@ -29,11 +31,11 @@ export default function Booking() {
             url="https://calendly.com/sapir682m/30min"
             styles={{ minWidth: '320px', height: '700px' }}
             pageSettings={{
-              backgroundColor: 'FAF8F5',
+              backgroundColor: hex('ivory'),
               hideEventTypeDetails: false,
               hideLandingPageDetails: false,
-              primaryColor: '8FAF8A',
-              textColor: '2D2926',
+              primaryColor: hex('sage'),
+              textColor: hex('charcoal'),
             }}
           />
         </div>

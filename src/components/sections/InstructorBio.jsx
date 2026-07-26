@@ -37,16 +37,24 @@ const contactItems = [
   {
     icon: (
       <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-        <circle cx="9" cy="8" r="3" stroke="currentColor" strokeWidth="1.4" />
+        <rect
+          x="2"
+          y="5"
+          width="10"
+          height="8"
+          rx="2"
+          stroke="currentColor"
+          strokeWidth="1.4"
+        />
         <path
-          d="M9 1a7 7 0 017 7c0 5-7 10-7 10S2 13 2 8a7 7 0 017-7z"
+          d="M12 8.2l4-2.2v6l-4-2.2z"
           stroke="currentColor"
           strokeWidth="1.4"
           strokeLinejoin="round"
         />
       </svg>
     ),
-    label: 'קליניקה ו/או זום',
+    label: 'זום',
     href: null,
   },
 ]
@@ -67,39 +75,39 @@ export default function InstructorBio() {
             <p className="text-warm-gray leading-relaxed mb-5">
               שמי ספיר מנחם. אני מתמחה בשיטת סאטיה באימון אישי ומלווה אנשים
               בתהליכים של חיבור פנימי, הקשבה והעמקה. העבודה שלי נשענת על
-              נוכחות, תחושות ורגישות — גם כשאין תשובות מיידיות.
+              נוכחות, תחושות ורגישות – גם כשאין תשובות מיידיות.
             </p>
             <p className="text-warm-gray leading-relaxed mb-5">
-              מאמינה שמפגש אמיתי מתחיל עם עצמנו במקום שבו אנחנו מסכימים —
+              מאמינה שמפגש אמיתי מתחיל עם עצמנו במקום שבו אנחנו מסכימים –
               לעצור, להרגיש ולהיות.
             </p>
 
             {/* Personal story */}
             <div className="border-r-2 border-sage-light pr-5 mb-6">
               <h3 className="text-base font-semibold text-charcoal mb-3">
-                הסיפור האישי שלי — הדרך שלי אל שיטת סאטיה
+                הסיפור האישי שלי – הדרך שלי אל שיטת סאטיה
               </h3>
               <p className="text-warm-gray text-sm leading-relaxed mb-3">
-                לאורך השנים ליוותה אותי תחושה פנימית של ״להיות יותר מזה״ —
+                לאורך השנים ליוותה אותי תחושה פנימית של ״להיות יותר מזה״ –
                 <em className="not-italic text-charcoal/70">
                   {' '}
                   "There must be more to life than this"
                 </em>{' '}
                 (מתוך שירו של פרדי מרקיורי). למרות תנועה, עשייה וחיים מלאים
-                כלפי חוץ — עלו בפנים שאלות, חוסר שקט ורצון להבין לעומק מה
+                כלפי חוץ – עלו בפנים שאלות, חוסר שקט ורצון להבין לעומק מה
                 מניע אותי ואת האנשים סביבי.
               </p>
               <p className="text-warm-gray text-sm leading-relaxed mb-3">
                 מצאתי את עצמי נמשכת לשיחות עמוקות, להקשבה למה שנאמר שלא
                 במילים, ולתחושות שעולות בגוף תוך כדי מפגש. דרך החיים,
-                ההתנסויות והאישיות שלי — הבנתי שדווקא מקומות הכיווץ, הבלבול,
-                העייפות והכאב — כפי שאני קוראת להם ״מגדילים״ — הם שערים
+                ההתנסויות והאישיות שלי – הבנתי שדווקא מקומות הכיווץ, הבלבול,
+                העייפות והכאב – כפי שאני קוראת להם ״מגדילים״ – הם שערים
                 להתפתחות.
               </p>
               <p className="text-warm-gray text-sm leading-relaxed">
                 המפגש עם שיטת סאטיה היה עבורי רגע של הכרה: שפה שמאפשרת לעצור,
                 לבחור להוויה, לחזור לגוף כמקום של אמת. מתוך החוויה האישית
-                הזאת בחרתי להתמחות בשיטה וללוות אחרים בתהליך דומה — תהליך של
+                הזאת בחרתי להתמחות בשיטה וללוות אחרים בתהליך דומה – תהליך של
                 חיבור, אחריות ורכות כלפי עצמם.
               </p>
             </div>
@@ -112,7 +120,7 @@ export default function InstructorBio() {
               <div className="relative rounded-2xl overflow-hidden border border-warm-border shadow-sm aspect-[3/4]">
                 <img
                   src="/images/sapir.jpeg"
-                  alt="ספיר מנחם — מאמנת אישית בשיטת סאטיה"
+                  alt="ספיר מנחם – מאמנת אישית בשיטת סאטיה"
                   className="w-full h-full object-cover object-top"
                 />
                 {/* Subtle sage overlay at bottom */}
