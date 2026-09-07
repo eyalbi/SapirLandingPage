@@ -15,13 +15,16 @@ const features = [
     icon: (
       <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
         <path
-          d="M14 4C14 4 7 10 7 16a7 7 0 0014 0c0-6-7-12-7-12z"
+          d="M14 16C13.77 15.79 13.53 15.58 13.3 15.37C10.83 13.13 9.2 11.65 9.2 9.84C9.2 8.36 10.36 7.2 11.84 7.2C12.68 7.2 13.48 7.58 14 8.2C14.52 7.58 15.32 7.2 16.16 7.2C17.64 7.2 18.8 8.36 18.8 9.84C18.8 11.65 17.17 13.13 14.7 15.38C14.47 15.59 14.23 15.79 14 16Z"
+          fill="currentColor"
+          fillOpacity="0.25"
           stroke="currentColor"
           strokeWidth="1.5"
           strokeLinejoin="round"
         />
+        {/* open cradle holding the heart */}
         <path
-          d="M14 16v-5"
+          d="M7.5 14.5C7.8 17 10.5 18.6 14 18.6C17.5 18.6 20.2 17 20.5 14.5"
           stroke="currentColor"
           strokeWidth="1.5"
           strokeLinecap="round"
