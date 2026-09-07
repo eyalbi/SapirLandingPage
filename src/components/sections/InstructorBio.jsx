@@ -37,24 +37,16 @@ const contactItems = [
   {
     icon: (
       <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-        <rect
-          x="2"
-          y="5"
-          width="10"
-          height="8"
-          rx="2"
-          stroke="currentColor"
-          strokeWidth="1.4"
-        />
         <path
-          d="M12 8.2l4-2.2v6l-4-2.2z"
+          d="M9 15.5c3.2-3.4 4.8-5.9 4.8-8.1a4.8 4.8 0 10-9.6 0c0 2.2 1.6 4.7 4.8 8.1z"
           stroke="currentColor"
           strokeWidth="1.4"
           strokeLinejoin="round"
         />
+        <circle cx="9" cy="7.2" r="1.9" stroke="currentColor" strokeWidth="1.4" />
       </svg>
     ),
-    label: 'זום',
+    label: 'קליניקה / זום',
     href: null,
   },
 ]

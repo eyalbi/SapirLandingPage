@@ -21,7 +21,7 @@ export default function Booking() {
             עצמך – אני מזמינה אותך לבוא להתאמן.
           </p>
           <p className="text-warm-gray/70 text-sm">
-            המועדים הפנויים מתעדכנים ביומן{' '}· זום
+            המועדים הפנויים מתעדכנים ביומן
           </p>
         </div>
 
