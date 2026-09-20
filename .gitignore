@@ -33,17 +33,17 @@ Thumbs.db
 # Cursor IDE
 .cursor/
 
-# Private assets
+# Private assets — course documents live in the repo folder but never ship
 *.pdf
+*.doc
+*.docx
+*.xlsx
+*.pptx
+*:Zone.Identifier
+submission/
+
+# ...except the observation page served from the live site
+!public/observation.pdf
 
 # Misc
 *.local
-submission/ספיר מנחם - קורס 30.7.2026 - תעודת זהות עסקית.doc
-submission/ספיר מנחם - קורס 30.7.2026 - סקר שוק ומתחרים ישירים.doc
-submission/ספיר מנחם - קורס 30.7.2026 - נאומי מעלית.doc
-ספיר%20מנחם%20-%20קורס%2030.07.2026%20-%20תעודת%20זהות%20עסקית.docx
-ספיר%20מנחם%20-%20קורס%2030.07.2026%20-%20סקר%20שוק%20ומתחרים%20ישירים.docx
-ספיר%20מנחם%20-%20קורס%2030.07.2026%20-%20נאומי%20מעלית.docx
-ספיר מנחם - קורס 30.7.2026 - תעודת זהות עסקית.doc
-ספיר מנחם - קורס 30.7.2026 - סקר שוק ומתחרים ישירים.doc
-ספיר מנחם - קורס 30.7.2026 - נאומי מעלית.doc
