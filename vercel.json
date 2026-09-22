@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/card",
+      "destination": "/card.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/sapir.vcf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/vcard; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}
