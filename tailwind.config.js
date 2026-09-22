@@ -4,6 +4,7 @@ import { activePalette } from './src/styles/palette.js'
 export default {
   content: [
     "./index.html",
+    "./card.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
