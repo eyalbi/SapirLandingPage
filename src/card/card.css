@@ -1,0 +1,26 @@
+/* Card-only motion and texture — kept out of the landing page's stylesheet. */
+@keyframes card-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes card-ring {
+  0%   { box-shadow: 0 0 0 0 rgba(143, 175, 138, 0.55); }
+  70%  { box-shadow: 0 0 0 14px rgba(143, 175, 138, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(143, 175, 138, 0); }
+}
+@keyframes card-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
+}
+.card-fade-up { animation: card-fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.card-ring    { animation: card-ring 2.4s ease-out infinite; }
+.card-float   { animation: card-float 3.2s ease-in-out infinite; }
+.card-hero-texture {
+  background-image:
+    repeating-linear-gradient(135deg, rgba(255,255,255,0.06) 0 1.5px, transparent 1.5px 26px),
+    repeating-linear-gradient(45deg,  rgba(255,255,255,0.04) 0 1.5px, transparent 1.5px 34px),
+    linear-gradient(160deg, #8FAF8A 0%, #6A9164 55%, #5b7f56 100%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-fade-up, .card-ring, .card-float { animation: none; }
+}
